@@ -5,12 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    
+    
     <!-- CSS -->
     <link rel="stylesheet" href="resetter.css">
     <link rel="stylesheet" href="style.css">
     <!-- CSS -->
 </head>
 <body>
-    
+    <div id="prime-container">
+
+        <!-- DASHBOARD SECTION -->
+        <div class="basic" id="dashboard">
+            <div id="dashboard-logo">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg> -->
+                <h1>Dashboard</h1>
+            </div>
+
+            <div id="profile-actions">
+                <button class="action-butons"></button>
+                <button class="action-butons"></button>
+                <button class="action-butons"></button>
+                <button class="action-butons"></button>
+                <button class="action-butons"></button>
+                <button class="action-butons"></button>
+            </div>
+
+            <div id="profile-settings">
+                <button class="setting-buttons"></button>
+                <button class="setting-buttons"></button>
+                <button class="setting-buttons"></button>
+            </div>
+        </div>
+        <!-- DASHBOARD SECTION -->
+
+        
+        <!-- ACTIVITY SECTION -->
+        <div class="main-container">
+            <!-- ACTIVITY BAR -->
+            <div class="main-activity" id="activity-bar">
+                <div id="activity-search">
+                    <div class="activity-search-div">
+                        <input type="text" name="search-bar" id="" class="search-bar">
+                    </div>
+                    
+                    <div class="activity-profile-div">
+                        <h2 id="activity-name" class="name">Naman Mishra</h2>
+                    </div>
+                </div>
+
+                <div id="activity-profile">
+                    <div id="profile-greet">
+                        <p class="para" id="greeting">Hi there,</p>
+                        <h3 class="name" id="user-name">Naman Mishra (@kindnemo)</h3>
+                    </div>
+
+                    <div id="activity-profile-buttons">
+                        <button class="profile-buttons">New</button>
+                        <button class="profile-buttons">Upload</button>
+                        <button class="profile-buttons">Share</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ACTIVITY BAR -->
+            
+        
+            <!-- MAIN CONTENT -->
+            <div class="basic" id="main">
+                <div id="your-projects-div">
+                    <p class="para" id="your-projects"></p>
+                    <div id="project-div">
+                        <div class="projects" id="timer-app">
+                            <h1 class="project-head">Timer App</h1>
+                            <p class="para project-para">
+                                This is a timer app I made at the starting of my journey, however unpolished, unprofessional and rough around the edges it might be it was a great learning experience for me nevertheless 
+                            </p>
+                        </div>
+                        
+                        <div class="projects" id="todo-list">
+                            <h1 class="project-head">To-do List App</h1>
+                            <p class="para project-para">
+                                This is a clone todo list webapp version of the popular productivity app Todoist. (Todoist please don't come after me)
+                            </p>
+                        </div>
+                        
+                        <div class="projects" id="etcher">
+                            <h1 class="project-head">Etch-A-Sketch</h1>
+                            <p class="para project-para">
+                                An Etch-A-Sketch like interactive drawing board I randomly made because I was bored.
+                            </p>
+                        </div>
+                        
+                        <div class="projects" id="gyide">
+                            <h1 class="project-head">Gyide</h1>
+                            <p class="para project-para">
+                                A website I made for an imaginary Gymnasium and fitness business to boost their sales and help them make more profit. I did put some effort into this
+                            </p>
+                        </div>
+                        
+                        <div class="projects" id="rps">
+                            <h1 class="project-head">Rock, Paper, Scissor</h1>
+                            <p class="para project-para">
+                                A classic game of rock, paper and scissor 
+                            </p>
+                        </div>
+                        
+                        <div class="projects" id="tictactoe">
+                            <h1 class="project-head">Tic-Tac-Toe</h1>
+                            <p class="para project-para">
+                                A game which hasn't received an update in 3323 years and its meta hasn't changed since it was developed. The infamous Tic-Tac-Toe
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="misc">
+                        <div class="misc-div" id="announcements"></div>
+                        
+                        <div class="msic-div" id="trending"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- MAIN CONTENT -->
+        </div>
+    </div>
 </body>
 </html>
