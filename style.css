@@ -2,14 +2,9 @@ body{
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
 }
-.basic{
-    /* border: 1px solid red */
-}
 
 #prime-container{
-    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
 }
 
 /* DASHBOARD STYLING */
@@ -22,7 +17,7 @@ body{
     color:white;
     box-shadow: 3px 0px 10px grey;
     z-index: 1;
-    /* position: fixed; */
+    position: fixed;
 }
 #dashboard svg{
     fill: white;
@@ -67,7 +62,6 @@ body{
 
 
 /* ACTIVITY BAR */
-
 #activity-bar{
     display: grid;
     padding: 20px;
@@ -192,4 +186,43 @@ img{
     height: 1.5rem;
     width: auto;
     fill: darkslategray;
+}   
+.project-para{
+    font-size: 0.9rem;
+    line-height: 120%;
+}
+
+
+
+
+
+
+#announcements, #trending{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0px  0px 20px 30px;
+    min-width: 300px;
+}
+.announcements-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 5px;
+}
+.other-projects{
+    color: black;
+    font-weight: 600;
+}
+.other-project-para{
+    font-size: 0.8rem;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.main-container{
+    margin-left: 268px;
 }
