@@ -1,0 +1,32 @@
+/* DASHBOARD ANIMATIONS */
+.action-buttons:hover{
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+.action-buttons:hover svg{
+    fill: black;
+}
+/* DASHBOARD ANIMATIONS */
+
+/* ACTIVITY ANIMATIONS */
+.profile-buttons:hover{
+    background-color: #F0B429;
+    color: black;
+    transition: all 0.3s ease;
+}
+/* ACTIVITY ANIMATIONS */
+
+
+
+/* MAIN ANIMATIONS */
+.project-action-buttons svg:hover{
+    fill: black;
+    transform-origin: all 0.3s ease;
+}
+a:hover{
+    color: #1992D4;
+    transition: all 0.3s ease; 
+}
+/* MAIN ANIMATIONS */
